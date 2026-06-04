@@ -5,6 +5,7 @@
 }
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 .font-work-sans{
   font-family: "Work Sans", sans-serif;
@@ -19,14 +20,15 @@ body{
     margin-top: 10px;
 }
 
-
+header{
+    width: 100%;
+}
 nav{
-    width: 1535px;
-    
+    width: 100%;
 }
 .logo {
     width: 139px;
-    height: 60 px;
+    height: 60px;
      padding-left: 60px;
 }
 .btn{
@@ -57,7 +59,7 @@ nav.first{
     
 }
 #banner{
-    background-color: #F9E2E2;
+   
     height: 500px;
     display: flex;
     justify-content: center;
@@ -76,6 +78,9 @@ section{
     background-color: #ffffff;
     background-image: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
   
 }
 
@@ -129,4 +134,95 @@ section{
     text-decoration: none;
     color: white;
     font-size: 16px;
+}
+
+#skills{
+    background-color: #ffffff;
+    background-image: none;
+}
+#skills .skills-container{
+    gap: 32px;
+    text-align: center;
+    padding: 60px 110px;
+    
+}
+#skills .skills-container h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#skills .skills-container p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+#skills .skills-container .skills-list{
+    width: 1360px;
+    padding:44px 120px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+#skills .skills-container .skills-list .skills-cards{
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 24px 24px;
+    width: 322px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills .skills-container .skills-list .skills-cards img{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+   border-radius: 999px;
+   
+}
+#solution{
+    background-color: #ffffff;
+    background-image: none;
+   
+}
+#solution .solution-container{
+    gap: 32px;
+    text-align: center;
+    padding: 60px 110px;
+    display: flex;
+    justify-content: center;
+    padding: 120px 120px;
+    gap: 60px;
+     
+}
+#solution .solution-container img{
+   width: 500px;
+   height: 400px;
+   border-radius: 12px;
+}
+#solution .solution-container p{
+   
+    font-size: 16px;
+    line-height: 20px;
+     color: #30b868;
+     padding: 0;
+}
+.solution-content-p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.solution-features {
+   
+   margin-top: 0px;
+
+}
+.solution-content h5{
+    font-size: 16px;
+    font-weight: 70;
+   
+    
+        
 }
