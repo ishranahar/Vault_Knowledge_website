@@ -76,7 +76,7 @@ nav.first{
 
 section{
     background-color: #ffffff;
-    background-image: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-image: url("./assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
