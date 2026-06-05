@@ -253,3 +253,34 @@ section{
     margin: 0 0 28px;
 }
 
+#ready{
+    background-color: #ffffff;
+    background-image: none;
+    padding: 60px 120px;
+}
+#ready .ready-container{
+    gap: 32px;
+    text-align: center;
+    padding: 120px 120px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    
+}
+.ready-container h2{
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.ready-container p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.ready-container h6{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    padding:20px;
+}
