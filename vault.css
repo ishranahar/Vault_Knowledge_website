@@ -190,7 +190,7 @@ section{
 }
 #solution .solution-container{
     gap: 60px;
-    text-align: center;
+    text-align: left;
     display: flex;
     padding: 80px 120px;
       
@@ -347,7 +347,7 @@ footer{
     #solution .solution-container{
     
     display: flex;
-    flex-direction: column;
+    flex-direction: left;
     width: 100%;
       
 }
