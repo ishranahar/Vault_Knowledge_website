@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Personal Knowledge Vault
 
@@ -33,7 +32,7 @@ The goal of this project is to solve common knowledge management problems such a
 ## Author
 
 Developed as a front-end web project using HTML and CSS.
-=======
+
 
 # Personal Knowledge Vault
 
@@ -68,4 +67,4 @@ The goal of this project is to solve common knowledge management problems such a
 ## Author
 
 Developed as a front-end web project using HTML and CSS.
->>>>>>> defdb9296288096d7644a2580e13d010f50e1243
+
